@@ -1,0 +1,56 @@
+	[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. Everyone knows you use the 3rd spoon from the right of a full dinner set to eat chicken wings."
+		romancebar: -200
+		Waiter: "M'Lady is very knowledgeable about food. On that note, do you perchance have any pets?"
+		Torch: "No, we don't have any pets."
+		Girl: "Yes we do! We have a dog called Dog!"
+		Waiter: "I'm not sure what other name I expected."
+		Girl: "Maybe if you WALKED him every once in a while you knew he existed!"
+		Torch: "Yeah, maybe if I knew he existed, I WOULD! I prefer running, but walking is my second-best skill!"
+		Girl: "Like you tried walking my goldfish? Rest in piece Mr. Gold Fish."
+		Waiter: "I'm not sure what other name I expected."
+		Torch: "HMPH!"
+		Girl: "HMPH!"
+	
+	[Select]
+		name = "Waiter"
+		Q: "What do you want to do?"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "Which spoon do I use to eat chicken wings?"
+		A1: "The 1st spoon on the left, the classic fan-favorite."
+		A2: "The 5th spoon from the right, it makes you wonder who came up with all this tableware, doesn't it."
+		A3: "The 3rd spoon from the right, the spoon with big holes in it."
+		correct: 3
+		
+	[Random]
+		name = "Waiter"
+		Q: "What is the tenth decimal of pi?"
+		A1: "Four, the Japanese fear it as the number of death, but I'm sure it will save my relationship."
+		A2: "Five, like the Jackson Five, but as part of pi."
+		A3: "Six, seven would be silly, so we will end it here."
+		correct: 2
+
+	[Correct]
+		Girl: "You are smarter than you look."
+		Torch: "I don't want to hear that from YOU!"
+		Girl: "FINE, you are dumber than you look!"
+		Torch: "Thank you! ... Wait."
+
+	[Wrong]
+		Girl: "Dog! Catch!"
+		Dog: "Grrrrowl! (I shall avenge you, Gold Fish)!
+		Torch: "Ack!"
+		romancebar: -200;
+		energybar: -500
+	
+	[Activity]
+		Narrator: "Torch walked Dog!"
+		Narrator: "Girl was able to stop him just as he tried forcing Dog into the aquarium afterwards!"
+		energybar: -750

@@ -1,0 +1,58 @@
+[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. You should absorb nutrients by rubbing food on your skin!"
+		romancebar: -200
+		Torch: "Like you're so much better than me!"
+		Girl: "I am! I can type with 10 fingers!"
+		Torch: "(She's got me there!)"
+		Waiter: "You are both terrible people, I am the only good person in this relationship."
+		Torch: "As always you are right, magical waiter."
+		Girl: "I wish the magical waiter would actually take our orders instead of putting a bucket of chicken here every day."
+		Torch: "Why do you always argue with restaurant staff?! I'm sure the magical waiter tries very hard!"
+		Magical Waiter: "*drools a little*"
+		Torch: "HMPH!"
+		Girl: "HMPH!"
+		
+	[Select]
+		name = "Waiter"
+		Q: "What do you want to do?"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "What can I do that Torch can't?"
+		A1: "Type with 10 fingers, a skill usually reserved for Gods and people with really strong pinkies."
+		A2: "Eat properly, what is it with Torch and eating anyway? Can't he just stop?"
+		A3: "Be liked by waiting staff, as long as I pay them I own them, they probably respect that clear hierarchy."
+		correct: 1
+	
+	[Random]
+		name = "Waiter"
+		Q: "When was Kentucky Fried Chicken founded?"
+		A1: "Never, it's all a psyop by the US government to make us eat microchips. Tasty microchips."
+		A2: "1952, the Colonel returned from the War and let out his PTSD by shooting chicken."
+		A3: "1922, the Colonel returned from the other War, chickens suffered all the same for it though."
+		correct: 2
+	
+	[Correct]
+		Waiter: "The prize... was right!"
+		Audience: "*applauds*"
+		Torch: "Thanks you, thank you! *throws kiss*"
+		Girl: "... What?"
+
+	[Wrong]
+		Girl: "Congratulations, you are a little bit behind the drooling magical waiter."
+		Torch: "*drools a little*"
+		Waiter: "*drools a little*"
+		Girl: "..."
+		Girl: "*drools a little*"
+		romancebar: -200;
+		energybar: -500
+	
+	[Activity]
+		Narrator: "Torch wrote a love letter for Girl!"
+		Narrator: "She didn't like it very much, and it took forever without using his pinkies to type!"
+		energybar: -750

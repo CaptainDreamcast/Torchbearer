@@ -1,0 +1,162 @@
+[Header]
+Sprites = levels/GAMEOVER.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "As Torch lit up the cauldron, he was greeted by the cheers of hundreds!"
+
+
+[Image 1]
+Group = 1
+Item = 1
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "... The cheers of hundreds?"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Hello?"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "As everyone except Torch knew, the 2020 Olympics were cancelled due to the outbreak of a global pandemic."
+
+[Image 1]
+Group = 1
+Item = 2
+
+[Text 1]
+Speaker = "Torch:"
+Text = "I really thought this would be my time to shine. To light. You know what I mean."
+
+[Text 1]
+Speaker = "Girl:"
+Text = "Torch..."
+
+[Text 1]
+Speaker = "Waiter:"
+Text = "Torch..."
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Oh well, *sniff*, we can still go to Akiba, while we're already in Japan!"
+
+[Text 1]
+Speaker = "Girl:"
+Text = "Wait, Torch... You... you also like Akiba?"
+
+[Image 1]
+Group = 1
+Item = 0
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Of course! That's why I wanted to become a torch bearer in the first place!"
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Swearing to my dying coach that I will buy G*ndam gunpla here is my tragic back story!"
+
+[Image 1]
+Group = 1
+Item = 3
+
+[Text 1]
+Speaker = "Girl:"
+Text = "I- I ALSO LOVE AKIBA!"
+
+
+[Text 1]
+Speaker = "Waiter:"
+Text = "I don't. I really don't care. I don't even know what an Akiba is, honestly."
+
+[Text 1]
+Speaker = "Torch:"
+Text = "All these years... why didn't you tell me?"
+
+[Text 1]
+Speaker = "Girl:"
+Text = "We have only known each other for two months, Torch!"
+
+[Image 1]
+Group = 1
+Item = 4
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Ah, yes! Of course!"
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Take me away on your unnaturally strengthened legs that could even run over the Pacific Ocean. To the ends of this earth!"
+
+[Text 1]
+Speaker = "Torch:"
+Text = "Everything for you, my dear!"
+
+
+[Text 1]
+Speaker = "Waiter:"
+Text = "It's the technology shopping district in Tokyo? What does that have to- Why does that? Huh?"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "And so, Torch not only kept the Olympic Flame alive, but also managed to regain(?) the love of his girlfriend, Girl Friend."
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "They later got married by certified pastor and waiter, Nigel."
+
+[Text 1]
+Speaker = "Nigel:"
+Text = "MY NAME IS NOT NIGEL!"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Other than Nigel, all of their closest friends were present. The Queen, the Sphinx and the penguin that hates fire so much."
+
+[Text 1]
+Speaker = "Angry Nigel:"
+Text = "MY NAME IS STILL NOT NIGEL!"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Thus, Girl Friend became Girl Bearer, but that is a story for another 18+ game."
+
+[Image 1]
+Group = 1
+Item = 5
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "The lesson we learned this time is to let everyone know of your most intimate hobbies immediately."
+
+[Text 1]
+Speaker = "Wrong-gel:"
+Text = "I... I don't think that's right!"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "And so they lived happily ever after. Girl, Torch and the waiter Nigel as their basement slave."
+
+
+[Text 1]
+Speaker = "B. Slave:"
+Text = "... W- w- wait, what was that last part?"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Thanks for playing!"
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "THE END!"
+
+[Title]

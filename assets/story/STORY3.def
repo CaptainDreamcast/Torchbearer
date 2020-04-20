@@ -1,0 +1,62 @@
+[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. Can't you put the same effort into eating you put into running?"
+		romancebar: -200
+		Torch: "No."
+		Girl: "FINE. I've been noticing for a while you have been answering questions about me, as if you want to keep our relationship alive."
+		Torch: "(Bro, she's onto us.)"
+		Waiter: "(Since when are we a team?)"
+		Girl: Ok, how about I tell you about my life a bit! Make sure to remember it all~ hehehe.
+		Torch: "(Bro, I don't like that laugh.)"
+		Waiter: "(I'm 51, refrain from calling me bro, young man.)"
+		Girl: I had five sisters: Marlette, Carla, Susan, Margarette (with two ts) and Carla again.
+		Girl: Carla was taller than Susan, while Susan was a teeny bit taller than Margarette, who was taller than the other Carla.
+		Girl: Marlette on the other hand was a little bit taller than the first Carla.
+		Girl: Fufufu~ let's see you answer this!!! I'll splash you good!
+		Torch: (Uwaaa, she turned into a video game villain, bro!)
+		Waiter: (I've had it with you!)
+		
+	[Select]
+		name = "Bro"
+		Q: "Select wisely:"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "What is my last name?"
+		A1: "Girl, Girl Girl, HEY WAIT A MINUTE."
+		A2: "Friend, Girl Friend, WHAT WAS THAT ABOUT SISTERS ALL ABOUT THEN?!"
+		A3: "Bearer, Girl Bearer, HEY!"
+		correct: 1
+	
+	[Random]
+		name = "Waiter"
+		Q: "Which sister with a unique name is the smallest of Girl's sisters?"
+		A1: "Colette, BUT WAITER, WEREN'T YOU SUPPOSED TO ASK RANDOM QUESTIONS?!"
+		A2: "Margarette, I THOUGHT YOU WERE MY BRO!!"
+		A3: "Marlette, YOU WERE THE TRUE VILLAIN ALL ALONG!"
+		correct: 2
+
+	[Correct]
+		Girl: "Fufufu~ you pass this test."
+		Torch: "YOU'RE ENJOYING THIS WAY TOO MUCH!"
+		Girl: "C'mon, c'mon, c'mon, get back to running, I want to ask the next question!"
+		Torch: (This is bad, she's totally into it now!).
+
+	[Wrong]
+		Torch: "Fufufu~ you lose this shadow game, Torch. The soul of your grand father is mine!"
+		Waiter: "Save me grandson! My soul is trapped in this water glass now!"
+		Torch: "..."
+		Torch: "..."
+		Torch: "..."
+		Torch: "Wha-"
+		romancebar: -200;
+		energybar: -500
+	
+	[Activity]
+		Narrator: "Torch spent all night researching and recataloguing Girl's family tree!"
+		Narrator: "SHE WAS ON ONLY CHILD ALL ALONG!"
+		energybar: -750

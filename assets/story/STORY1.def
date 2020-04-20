@@ -1,0 +1,58 @@
+[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. Only eating with one hand instead of two, you are like an animal."
+		romancebar: -200
+		Waiter: "Every decision Torch makes affects his relationship with Girl."
+		Torch: "Who is this old man?"
+		Waiter: "At the end of each dinner, you have to choose:"
+		Girl: "I thought he was with you, he's kind of creeping me out."
+		Waiter: "You must answer either a question about Girl Friend, a random knowledge question, or perform a relationship task."
+		Torch: "Is he playing the violin?"
+		Waiter: "HOWEVER, doing that drains your energy significantly!"
+		Girl: "Well, he's not very good at it! Good job choosing the worst exposition violinist, Torch!"
+		Waiter: "There are no ramifications for insulting the waiter, but I might cry myself to sleep later."
+		Waiter: "Just remember: Your relationship is dying-"
+		Girl: "I- it is?!"
+		Waiter: "Your relationship bar can only go down at this point. Choose wisely."
+		Girl: "Should I be worried?"
+	
+	[Select]
+		name = "Waiter"
+		Q: "What do you want to do?"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "What is my last name?"
+		A1: "Girl, Girl Girl, easy to remember."
+		A2: "Friend, Girl Friend, a match made in heaven."
+		A3: "Bearer, Girl Bearer- whoa, slow down there, that's a bit fast for the first dinner scene."
+		correct: 1
+	
+	[Random]
+		name = "Waiter"
+		Q: "What is the theme of the 46th Ludum Dare?"
+		A1: "Keep it alive, like imagine keeping a torch and/or a relationship alive, maybe even both. Layered like onions."
+		A2: "Start with nothing, like imagine a racer wearing only boxer shorts, only boxer shorts. Nothing more."
+		A3: "Your life is currency, like imagine turning into money. A dreaded commentary on our monetary system."
+		correct: 1
+
+	[Correct]
+		Girl: "You got it right! Woo-hoo!"
+		Torch: "YES! I GOT IT! NOW OUR RELATIONSHIP BAR WILL GO UP AGAIN!"
+		Girl: "I don't get it, but our relationship is saved!"
+		Waiter: "... Were you two even listening earlier?"
+
+	[Wrong]
+		Girl: "UGH! You can't even answer a simple question like that?"
+		Torch: "Ehh, I mean it's not a big de-"
+		Waiter: "I'm afraid it is, Mr. Wright. 100% penalty:"
+		romancebar: -1000
+	
+	[Activity]
+		Narrator: "Torch mowed the lawn!"
+		energybar: -750
+		Narrator: "However, he also mowed down Girl's favorite flowers!"

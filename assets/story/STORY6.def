@@ -1,0 +1,55 @@
+	[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. Actually, you know what, have your fun. I have come up with a great new question!"
+		romancebar: -200
+		Torch: "Okay. Hit me up. I'm ready!"
+		Girl: "..."
+		Torch: "Girl?"
+		Girl: "... Fufufu~"
+		Torch: "Waiter?"
+		Waiter: "... Fufufu~"
+		Torch: "... Help?"
+		Girl: "HAHAHA, IF I DON'T SAY ANYTHING, YOU CAN'T ANSWER ANYTHING! I WIN!"
+		Torch: "But what's with the waiter?"
+		Waiter: "... Fufufu~"
+		Girl: "He's just a bit stupid and doesn't get what's going on."
+
+	[Select]
+		name = "Waiter"
+		Q: "Fufufu~:"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "HAHAHA, WHAT ARE YOU GOING TO DO, TORCH?! YOU CANNOT WIN AGAINST THIS!"
+		A1: "I will still answer, I love you after all, I would never give up on you."
+		correct: 2
+		
+	[Random]
+		name = "Waiter"
+		Q: "Fufufu~"
+		A1: "Fufufu~"
+		correct: 1
+
+	[Correct]
+		Torch: "ENOUGH WITH THE FUFUFU!"
+		Girl: "But I want to be a super dinner table villain! Choose my questions, you dork!"
+		Waiter: "... Fufufu~"
+		Waiter: "The waiter relationship went up! That has to count for something!"
+		Torch: "IT REALLY DOESN'T! IT REALLY DOESN'T!"
+
+	[Wrong]
+		Girl: Wha-Wha-Wha-Wha-Wha-
+		romancebar: 200
+		Waiter: (!)
+		Girl: Y- you win this round, Torch! But the great Girl, Empress of the dinner table will get you sooner or later!
+		Torch: (Uwaaa, she's even further down the villain path now!).
+		Waiter: "... Fufufu~"
+	
+	[Activity]
+		Narrator: "Torch tested all beds in the house"
+		Narrator: "They were indeed very fluffy."
+		energybar: -750

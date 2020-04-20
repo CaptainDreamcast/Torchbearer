@@ -1,0 +1,62 @@
+[Header]
+Sprites = levels/INTRO.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "The year is 2020 (It really is, check your calendar)."
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "All Olympic torch bearers have given up on the Olympics, except one brave, yet not-that-smart man:"
+
+[Image 1]
+Group = 1
+Item = 1
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Torch Bearer. First name Torch, last name Bearer. It was a match made in heaven."
+
+[Image 1]
+Group = 1
+Item = 2
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Torch sets out to light the Olympic cauldron in Japan and maybe visit Akiba, because why not if you're already there."
+
+[Image 1]
+Group = 1
+Item = 3
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "HOWEVER, Torch has a problem that should last long enough for a five-minute Ludum Dare gameplay loop:"
+
+[Image 1]
+Group = 1
+Item = 4
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "His relationship with his girlfriend, Girl Friend (first name Girl, last name Friend), has been in steady decline."
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Girl is a drama queen, so should she break up with him, she would most definitely do the dramatic splash-him-with-water thing, like in those soap operas!"
+
+[Image 1]
+Group = 1
+Item = 5
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "In order to protect the Olympic flame and the smiles of children across the globe, Torch MUST reach Japan before the light of his relationship expires!	"
+
+[Title]

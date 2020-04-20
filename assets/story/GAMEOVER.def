@@ -1,0 +1,47 @@
+[Header]
+Sprites = levels/GAMEOVER.sff
+
+[STORYSTART]
+
+[Image 1]
+Group = 1
+Item = 0
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Just as Torch feared, Girl broke up with him and splashed him with a comically oversized glass of water!"
+
+
+[Image 1]
+Group = 1
+Item = 1
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "But little did they know, the Olympic torch was actually a seal keeping the supreme dark overlord at bay."
+
+[Image 1]
+Group = 1
+Item = 2
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "However, since the world was already in such a rocky spot, the dark overlord gave up and just opened up a dark M*necraft Server instead."
+
+[Image 1]
+Group = 1
+Item = 3
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Impressed by Torch's full enchanted armor, he lent him his time machine, which transported him back to the time of the title screen."
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "..."
+
+[Text 1]
+Speaker = "Narrator:"
+Text = "Yeah."
+
+[Title]

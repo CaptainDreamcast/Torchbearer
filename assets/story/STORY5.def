@@ -1,0 +1,58 @@
+[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. You shouldn't eat at all!"
+		romancebar: -200
+		Torch: "Like a super mode? That's going a bit far, isn't it?"
+		Girl: "Yes, but I am ANGRY and UNREASONABLE."
+		Torch: "Do you think I could be a supermodel? On the title of torchbearer weekly?"
+		Girl: "... Probably, yes, but that wasn't my point!"
+		Waiter: "I was on the cover of waiter weekly."
+		Both: "NOBODY ASKED!"
+		Waiter: "HMPH!"
+		Torch: "HMPH!"
+		Girl: "HMPH!"
+		
+	[Select]
+		name = "Waiter"
+		Q: "HMPH! (What do you want to do?)"
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "I am ANGRY and what?"
+		A1: "ILLOGICAL, you can even do the small V*lcan salute to top it off."
+		A2: "RUDE, I am feared by waiting staff across the globe."
+		A3: "UNREASONABLE, unless I have a deep dark reason that will be explored later."
+		correct: 3
+	
+	[Random]
+		name = "Waiter"
+		Q: "Who appeared most often on the cover of Playboy magazine?"
+		A1: "HOW SHOULD I KNOW?! WOULDN'T ANSWERING THAT MAKE MY RELATIONSHIP EVEN WORSE?!"
+		A2: "Pamela Anderson, bro."
+		A3: "Madonna, bro."
+		correct: 2
+
+	[Correct]
+		Torch: "Should you yourself really say you are unreasonable?"
+		Girl: "... Torch, you really ca-"
+		Torch: "That's a pretty long word, I prefer short words, like running."
+		Girl: "(A- are you a fifth grader?!)"
+
+	[Wrong]
+		Torch: "Should you yourself really say you are unreasonable?"
+		Girl: "... Torch, you really ca-"
+		Torch: "I'd throw in stupid and rude too!"
+		Girl: "Do you want me to splash you?"
+		Waiter: "Please don't argue!"
+		Both: "NOBODY ASKED YOU!"
+		romancebar: -200;
+		energybar: -500
+	
+	[Activity]
+		Narrator: "Torch cleaned up their DVD collection!"
+		Narrator: "However, he accidentally(?) threw away Girl's DVDs!"
+		energybar: -750

@@ -1,0 +1,61 @@
+	[Steps]
+		Torch: Let's dig in!
+		energybar: 1000
+		Girl: "Ugh, your table manners are the worst. I hate you more than bald waiters!"
+		romancebar: -200
+		waiter: "You can't see it but the waiter bar went down too."
+		Torch: "Don't be rude to my bro Nigel!"
+		Nigel(?): "But my name's not Nigel, it's-"
+		Girl: "All you ever do is hang out with Nigel!"
+		Nigel(?): "We never 'hang out', I'm just a violi-"
+		Torch: "Oh yeah, and what about your friend Nigelette?"
+		Nigelette(?): "AM I DOING A DOUBLE ROLE NOW?!"
+		Girl: "WHO ON EARTH IS NIGELETTE?!"
+		???: "WHO AM I?!"
+		Torch: "HMPH!"
+		Girl: "HMPH!"
+		
+	[Select]
+		name = "Who"
+		Q: "What's the plan, boss? Yo."
+		A1: "Relationship Question"
+		A2: "Random Question"
+		A3: "Activity"
+	
+	[Relationship]
+		name = "Girl"
+		Q: "What is the name of my best friend?"
+		A1: "I don't know, nobody told me. And I only know stuff from our previous conversation."
+		A2: "Nigelette, the bald violinist."
+		A3: "Torch? Please?? Honey-bunny???"
+		correct: 1
+	
+	[Random]
+		name = "Waiter"
+		Q: "About how many hair follicles does the average human head have?"
+		A1: "100000, I counted."
+		A2: "1000000, I counted twice."
+		A3: "10000000, I counted four times, disregard those other nerd answers."
+		correct: 1
+
+	[Correct]
+		Torch: "Girl, you're my best friend."
+		Girl: "Ok, the question lied, you're my best friend too, Torch."
+		Waiter: "You two are my best friends too, I have nothing else in my life except playing the violin here!"
+		Torch: "COME HERE, NIGEL!"
+		Narrator: "And then they all hugged, until the moment wore off and they awkwardly went back to hating each other."
+
+	[Wrong]
+		Torch: "Girl, you're my best friend."
+		Girl: "But you always say you have no friends."
+		Torch: "..."
+		Waiter: "..."
+		Narrator: "*Nigel(?) and Torch leave*"
+		Girl: "Huh?!"
+		romancebar: -200;
+		energybar: -500
+	
+	[Activity]
+		Narrator: "Torch repaired the front door!"
+		Narrator: "Now the two have to use the back door to get into their house!"
+		energybar: -750

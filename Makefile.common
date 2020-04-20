@@ -1,0 +1,2 @@
+OBJS = main.o \
+bars.o collision.o datingscreen.o gamescreen.o obstaclehandler.o runningman.o scrollingbackground.o storyhandler.o storyscreen.o titlescreen.o
