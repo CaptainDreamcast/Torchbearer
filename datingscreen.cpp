@@ -52,7 +52,7 @@ void startDating()
 	else {
 		while (true) {
 			int i = randfromInteger(1, 10);
-			ss = std::stringstream();
+			ss.str(std::string());
 			ss << "story/STORY" << i << ".def";
 			if (isFile(ss.str())) {
 				setStoryHandlerPath(ss.str());

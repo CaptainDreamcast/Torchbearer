@@ -191,7 +191,7 @@ static void loadStoryScreen() {
 	scriptPath << "story/" << gStoryScreenData.mDefinitionPath << ".def";
 	loadMugenDefScript(&gStoryScreenData.mScript, scriptPath.str().data());
 
-	scriptPath = stringstream();
+	scriptPath.str(std::string());
 	scriptPath << "story/" << gStoryScreenData.mDefinitionPath << ".sff";
 	gStoryScreenData.mSprites = loadMugenSpriteFileWithoutPalette(scriptPath.str());
 

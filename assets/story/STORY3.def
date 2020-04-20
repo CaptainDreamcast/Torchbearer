@@ -30,7 +30,7 @@
 		A1: "Girl, Girl Girl, HEY WAIT A MINUTE."
 		A2: "Friend, Girl Friend, WHAT WAS THAT ABOUT SISTERS ALL ABOUT THEN?!"
 		A3: "Bearer, Girl Bearer, HEY!"
-		correct: 1
+		correct: 2
 	
 	[Random]
 		name = "Waiter"

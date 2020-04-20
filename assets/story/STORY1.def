@@ -30,7 +30,7 @@
 		A1: "Girl, Girl Girl, easy to remember."
 		A2: "Friend, Girl Friend, a match made in heaven."
 		A3: "Bearer, Girl Bearer- whoa, slow down there, that's a bit fast for the first dinner scene."
-		correct: 1
+		correct: 2
 	
 	[Random]
 		name = "Waiter"
